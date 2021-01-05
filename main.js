@@ -85,7 +85,7 @@ function my_keydown(e) {
         new_superhero(superhero_right_hands[random_number]);
     }
     if (key_down == 74){
-        new_superhero(superhero_legs[random_number_legs_special]);
+        new_superhero(superhero_legs[random_number_legs_body_special]);
     }
     
     //
