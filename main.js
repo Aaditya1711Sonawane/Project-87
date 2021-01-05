@@ -74,18 +74,23 @@ function my_keydown(e) {
 
     if (key_down == 70){
         new_superhero(superhero_faces[random_number]);
+        random_number = Math.floor(Math.random()*4);
     }
     if (key_down == 66){
         new_superhero(superhero_bodies[random_number_legs_body_special]);
+        random_number_legs_body_special = Math.floor(Math.random()*3);
     }
     if (key_down == 76){
-        new_superhero(superhero_left_hands[random_number_legs_body_special]);
+        new_superhero(superhero_left_hands[random_number_left_hand_special]);
+        random_number_left_hand_special = Math.floor(Math.random()*5);
     }
     if (key_down == 82){
         new_superhero(superhero_right_hands[random_number]);
+        random_number = Math.floor(Math.random()*4);
     }
     if (key_down == 74){
         new_superhero(superhero_legs[random_number_legs_body_special]);
+        random_number_legs_body_special = Math.floor(Math.random()*3);
     }
     
     //
